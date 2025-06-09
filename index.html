@@ -1,14 +1,12 @@
 <!DOCTYPE html>
-<!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <link rel="stylesheet" href="style.css" />
   <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet" />
   <title>Cafeteria Olivares</title>
-
-  <!-- Meta tags para redes sociais -->
   <meta property="og:url" content="https://cafeteriaolivares.com" />
   <meta property="og:title" content="Cafeteria Olivares" />
   <meta property="og:description" content="A cafeteria mais acolhedora do Balneário São José. Venha nos visitar!" />
@@ -16,9 +14,9 @@
 
 <body>
   <header class="header">
-    <section class="container">
+    <section>
       <a href="https://cafeteriaolivares.com" class="logo">
-        <img src="./img/logo.png" alt="Logo Cafeteria Olivares" style="max-width: 120px; height: auto;" />
+        <img src="./img/logo.png" alt="Logo Cafeteria Olivares" />
       </a>
 
       <nav class="navbar">
@@ -30,70 +28,120 @@
       </nav>
 
       <div class="icons">
-        <img src="https://img.icons8.com/ios-filled/50/ffffff/search--v1.png" alt="Buscar" width="30" height="30" />
-        <img src="https://img.icons8.com/ios-glyphs/30/ffffff/shopping-cart--v1.png" alt="Carrinho" width="30" height="30" />
+        <img width="30" height="30" src="https://img.icons8.com/ios-filled/50/ffffff/search--v1.png" alt="Buscar" />
+        <img width="30" height="30" src="https://img.icons8.com/ios-glyphs/30/ffffff/shopping-cart--v1.png"
+          alt="Carrinho de compras" />
       </div>
     </section>
   </header>
 
-  <main class="container">
-    <section id="home" class="home-container">
+  <div class="home-container">
+    <section id="home">
       <div class="content">
         <h3>O MELHOR CAFÉ DO BAIRRO</h3>
-        <p>Seja para começar o dia com um café encorpado, fazer uma pausa com um doce caseiro ou aproveitar um encontro especial. A Olivares é uma tradição que aquece momentos e conecta pessoas.</p>
+        <p>Seja para começar o dia com um café encorpado, fazer uma pausa no meio da tarde com um doce caseiro,
+          ou aproveitar um encontro especial, a Olivares é o ponto de referência no bairro.
+          Mais do que uma cafeteria, somos uma tradição que aquece momentos e conecta pessoas.
+          Venha nos visitar e descubra por que somos a cafeteria preferida do Balneário!</p>
         <a href="#menu" class="btn"> Pegue o seu agora</a>
       </div>
     </section>
+  </div>
 
-    <section id="about" class="about">
-      <h2 class="title">Sobre <span>Nós</span></h2>
-      <div class="row">
-        <div class="container-image">
-          <img src="./img/about-img.jpg" alt="Sobre nós" style="width: 100%; max-width: 500px; border-radius: 1rem;" />
-        </div>
-        <div class="content">
-          <h3>O que faz nosso Café mais do que especial</h3>
-          <p>Café fresquinho feito com paixão e qualidade todos os dias.</p>
-          <p>O sabor que aquece seu coração em cada xícara.</p>
-          <p>Um cantinho acolhedor para seus melhores momentos.</p>
-          <a href="#menu" class="btn">Saiba Mais</a>
-        </div>
+  <section class="about" id="about">
+    <h2 class="title">Sobre <span>Nós</span></h2>
+    <div class="row">
+      <div class="container-image">
+        <img src="./img/about-img.jpg" alt="Sobre nós" />
       </div>
-    </section>
+      <div class="content">
+        <h3>O que faz nosso Café mais do que especial</h3>
+        <p>Café fresquinho feito com paixão e qualidade todos os dias.</p>
+        <p>O sabor que aquece seu coração em cada xícara.</p>
+        <p>Um cantinho acolhedor para seus melhores momentos.</p>
+        <p>Temos Pão Francês todas as manhas e tardes</p>
+        <a href="#menu" class="btn">Saiba Mais</a>
+      </div>
+    </div>
+  </section>
 
-    <section id="menu" class="menu">
-      <h2 class="title">Nosso <span>Menu</span></h2>
-      <div class="box-container">
-        <div class="box"><img src="./img/menu-1.png" alt="Café Expresso" /><h3>Café Expresso</h3><div class="price">De R$ 9,00 por R$ 7,00</div><a href="#" class="btn">Adicionar</a></div>
-        <div class="box"><img src="./img/menu-2.png" alt="Cappuccino" /><h3>Cappuccino</h3><div class="price">De R$ 12,00 por R$ 9,00</div><a href="#" class="btn">Adicionar</a></div>
-        <div class="box"><img src="./img/menu-3.png" alt="Mocha" /><h3>Mocha</h3><div class="price">De R$ 9,00 por R$ 6,00</div><a href="#" class="btn">Adicionar</a></div>
-        <div class="box"><img src="./img/menu-4.png" alt="Café Gelado" /><h3>Café Gelado</h3><div class="price">De R$ 7,50 por R$ 5,50</div><a href="#" class="btn">Adicionar</a></div>
-        <div class="box"><img src="./img/menu-5.png" alt="Latte" /><h3>Latte</h3><div class="price">De R$ 11,00 por R$ 8,00</div><a href="#" class="btn">Adicionar</a></div>
-        <div class="box"><img src="./img/menu-6.png" alt="Café com Leite" /><h3>Café com Leite</h3><div class="price">De R$ 7,00 por R$ 5,00</div><a href="#" class="btn">Adicionar</a></div>
-        <div class="box"><img src="./img/menu-7.png" alt="Pão Francês" /><h3>Pão Francês</h3><div class="price">De R$ 3,00 por R$ 2,00</div><a href="#" class="btn">Adicionar</a></div>
-      </div>
-    </section>
+  <section class="menu" id="menu">
+  <h2 class="title">Nosso <span>Menu</span></h2>
+  <div class="box-container">
 
-    <section id="adress" class="adress">
-      <h2 class="title">Estamos <span>Aqui</span></h2>
-      <div class="row" style="display: flex; flex-direction: column; align-items: center; text-align: center; gap: 2rem;">
-        <p style="font-size: 1.6rem;">Nos visite em:<br /><strong>Ac. Bem-te-vi Amarelo, 283 - Balneário São José</strong></p>
-        <div style="display: flex; flex-wrap: wrap; gap: 1rem; justify-content: center;">
-          <a href="https://maps.app.goo.gl/423mpRiZ15P4SkHZA" target="_blank" class="btn">Google Maps</a>
-          <a href="https://hopp.bio/lincoln1" target="_blank" class="btn" style="background-color: transparent; border: 1px solid var(--main-color); color: var(--main-color);">Linktree</a>
-        </div>
-        <iframe 
-          src="https://www.google.com/maps?q=Ac.+Bem-te-vi+Amarelo,+283+-+Balneário+São+José&output=embed" 
-          width="100%" 
-          height="350" 
-          style="border:0; border-radius: 1rem; max-width: 800px;" 
-          allowfullscreen="" 
-          loading="lazy" 
-          referrerpolicy="no-referrer-when-downgrade">
-        </iframe>
+    <div class="box">
+      <img src="./img/menu-1.png" alt="Imagem do Café Expresso">
+      <h3>Café Expresso</h3>
+      <div class="price">De R$ 9,00 por apenas R$ 7,00</div>
+      <a href="#" class="btn">Adicionar ao Carrinho</a>
+    </div>
+
+    <div class="box">
+      <img src="./img/menu-2.png" alt="Imagem do Cappuccino">
+      <h3>Cappuccino</h3>
+      <div class="price">De R$ 12,00 por apenas R$ 9,00</div>
+      <a href="#" class="btn">Adicionar ao Carrinho</a>
+    </div>
+
+    <div class="box">
+      <img src="./img/menu-3.png" alt="Imagem do Mocha">
+      <h3>Mocha</h3>
+      <div class="price">De R$ 9,00 por apenas R$ 6,00</div>
+      <a href="#" class="btn">Adicionar ao Carrinho</a>
+    </div>
+
+    <div class="box">
+      <img src="./img/menu-4.png" alt="Imagem do Café Gelado">
+      <h3>Café Gelado</h3>
+      <div class="price">De R$ 7,50 por apenas R$ 5,50</div>
+      <a href="#" class="btn">Adicionar ao Carrinho</a>
+    </div>
+
+    <div class="box">
+      <img src="./img/menu-5.png" alt="Imagem do Latte">
+      <h3>Latte</h3>
+      <div class="price">De R$ 11,00 por apenas R$ 8,00</div>
+      <a href="#" class="btn">Adicionar ao Carrinho</a>
+    </div>
+
+    <div class="box">
+      <img src="./img/menu-6.png" alt="Imagem do Café com Leite">
+      <h3>Café com Leite</h3>
+      <div class="price">De R$ 7,00 por apenas R$ 5,00</div>
+      <a href="#" class="btn">Adicionar ao Carrinho</a>
+    </div>
+
+  </div>
+</section>
+
+
+  <section class="adress" id="adress">
+    <h2 class="title">Estamos <span>Aqui</span></h2>
+    <div class="row" style="display: flex; flex-direction: column; align-items: center; text-align: center; gap: 2rem;">
+      <p style="color: white; font-size: 1.8rem;">
+        Nos visite em:<br />
+        <strong>Ac. Bem-te-vi Amarelo, 283 - Balneário São José</strong>
+      </p>
+      <div style="display: flex; gap: 1.5rem; flex-wrap: wrap; justify-content: center;">
+        <a href="https://maps.app.goo.gl/423mpRiZ15P4SkHZA" target="_blank" class="btn">
+          Ver no Google Maps
+        </a>
+        <a href="https://hopp.bio/lincoln1" target="_blank" class="btn" style="background-color: #ffffff10; border: 1px solid var(--main-color); color: var(--main-color);">
+          Linktree da Cafeteria
+        </a>
       </div>
-    </section>
-  </main>
+      <iframe 
+        src="https://www.google.com/maps?q=Ac.+Bem-te-vi+Amarelo,+283+-+Balneário+São+José&output=embed" 
+        width="100%" 
+        height="350" 
+        style="border:0; border-radius: 1rem; max-width: 800px;" 
+        allowfullscreen="" 
+        loading="lazy" 
+        referrerpolicy="no-referrer-when-downgrade">
+      </iframe>
+    </div>
+  </section>
+
 </body>
-</html>
 
+</html>
